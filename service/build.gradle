@@ -45,7 +45,7 @@ bootJar {
 
 dependencies {
     compile(
-            [group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: 'Hoxton.SR12'],
+            [group: 'org.springframework.cloud', name: 'spring-cloud-starter-config', version: '2.2.8.RELEASE'],
             [group: 'org.springframework.boot', name: 'spring-boot-starter-web'],
             [group: 'org.springframework.boot', name: 'spring-boot-starter-jetty'],
             [group: 'org.apache.fineract.cn.cheques', name: 'api', version: project.version],
